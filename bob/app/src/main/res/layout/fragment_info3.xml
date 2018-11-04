@@ -1,0 +1,227 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.yeeun.bob.Info3Fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="3"
+                    android:background="#ffffff"
+                    android:padding="18dp"
+                    android:text="성폭력 피해 신고기관 및 연락처"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#dbc3aa"
+                android:baselineAligned="true">
+                <!--http://encycolorpedia.kr/964b00 : 색상참조-->
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="구분"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="신고전화"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="인터넷 신고" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="경찰청" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/textView1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="112" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/textView2"
+                    android:layout_weight="2"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="사이버경찰청\nhttp://www.police.go.kr/main.html" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="검찰청" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/textView3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="1301" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/textView4"
+                    android:layout_weight="2"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="검찰청 온라인민원실\nhttp://www.spo.go.kr/minwon/index.jsp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="여성긴급전화"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/textView5"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="지역번호 + 1366"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:id="@+id/textView6"
+                    android:layout_weight="2"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="여성긴급전화 1366\nhttps://www.women1366.kr/_sub03/sub03_02a.html" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="성폭력피해상담소"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text=""/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="성폭력피해상담소\nhttps://www.women1366.kr/_sub03/sub03_02c.html" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="해바라기센터"/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text=""/>
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:autoLink="web"
+                    android:gravity="center"
+                    android:linksClickable="true"
+                    android:text="전국 해바라기센터 연락처\nhttp://www.mogef.go.kr/cs/wvs/cs_wvs_f005.do" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

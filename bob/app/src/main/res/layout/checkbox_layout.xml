@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cb_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/gg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강간" />
+
+        <CheckBox
+            android:id="@+id/ph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="폭행" />
+
+        <CheckBox
+            android:id="@+id/jgg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="준강간/폭행" />
+
+        <CheckBox
+            android:id="@+id/ge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="간음" />
+
+        <CheckBox
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="촬영" />
+
+        <Button
+            android:id="@+id/bt_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btnClicked"
+            android:text="선택" />
+    </LinearLayout>
+
+</LinearLayout>

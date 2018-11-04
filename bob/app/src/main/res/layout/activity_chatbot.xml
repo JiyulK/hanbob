@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:id="@+id/root1"
+    tools:context="com.example.yeeun.bob.ChatbotActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight=".7"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:textSize="20dp"
+                android:id="@+id/exampleBtn"
+                android:enabled="false"
+                android:onClick="exampleBtnClick"
+                android:background="@android:color/transparent"
+                android:text="＃판례보기"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:background="@android:color/transparent"
+                android:enabled="false"
+                android:onClick="expertBtnClick"
+                android:id="@+id/expertBtn"
+                android:text="＃전문가보기"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--
+        <Button
+            android:onClick="alarmClick"
+            android:id="@+id/alarmBtn"
+            android:text="알람생성"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            -->
+        <FrameLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:id="@+id/listView1"
+                android:listSelector="#00000000"
+                android:cacheColorHint="#00000000"
+                android:divider="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:transcriptMode="alwaysScroll"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+
+            <EditText
+                android:layout_weight="3"
+                android:id="@+id/chatEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:layout_weight="1"
+                android:onClick="addchatBtnClick"
+                android:id="@+id/addchatBtn"
+                android:background="#dbc3aa"
+                android:gravity="center"
+                android:text="확인"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:id="@+id/voiceBtn"
+                android:src="@drawable/micicon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+

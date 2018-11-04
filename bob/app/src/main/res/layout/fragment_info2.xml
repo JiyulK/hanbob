@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.yeeun.bob.Info2Fragment">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="챗봇이용"/>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 챗봇으로 사건을 당한 사람의 나이, 사건, 기간, 장소를 입력\n   1) text입력\n   2) 음성입력\n    (버튼을 누르지 않아도 흔들기 모션을 취하면 음성인식 모듈이 동작합니다) \n2. 그에 해당하는 조항의 사례 확인, 전문가 추천받기\n3. 판례 저장"/>
+    <TextView
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="전문가등록"/>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 개인정보 입력\n2. 합격증 촬영\n3. 등록하기버튼 클릭"/>
+    <TextView
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="신고방법안내"/>
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 전화번호를 클릭하면 전화화면으로 전환됩니다\n2. 주소 클릭시 사이트를 방문할 수 있습니다"/>
+</LinearLayout>
